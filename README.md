@@ -25,3 +25,5 @@ Spring Boot приложение для управления контактам�
 sudo -u postgres psql -c "CREATE DATABASE contactdb;"
 sudo -u postgres psql -c "CREATE USER contact_user WITH PASSWORD 'password';"
 sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE contactdb TO contact_user;"
+```
+## API endpoints
